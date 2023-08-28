@@ -1,3 +1,7 @@
 fastapi
 uvicorn
-databases[sqlite]
+databases
+passlib
+python-jose
+python-multipart
+bcrypt

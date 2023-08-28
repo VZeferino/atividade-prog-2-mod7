@@ -2,7 +2,7 @@ document.getElementById('addNoteForm').addEventListener('submit', async (e) => {
     e.preventDefault();
     const note = document.getElementById('newNote').value;
 
-    const response = await fetch(`/notes/teste/`, {
+    const response = await fetch(`/notes/teste`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -20,7 +20,7 @@ document.getElementById('addNoteForm').addEventListener('submit', async (e) => {
 });
 
 async function loadNotes() {
-    const response = await fetch(`/notes/teste/`);
+    const response = await fetch(`/notes/teste`);
     const data = await response.json();
 
     // Limpar a lista antes de adicionar as novas notas
