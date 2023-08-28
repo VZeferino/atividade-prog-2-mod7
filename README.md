@@ -39,16 +39,24 @@ Além disso, a separação das operações de autenticação e geração de toke
 
 ## Como Rodar o Projeto:
 
-1. Abra um terminal na pasta raiz do seu projeto e execute o seguinte comando para construir o contêiner (deve estar com o Docker Desktop aberto):
+Para executar o projeto, siga os passos abaixo:
 
-   docker build -t atividade .
+Abra um terminal na pasta raiz do seu projeto.
 
-2. Rode o Contêiner:
+Construa a imagem do contêiner utilizando o Docker Compose. Certifique-se de que o Docker Desktop esteja aberto. Execute o seguinte comando:
 
-   Após o build ser concluído, execute o seguinte comando para rodar o contêiner:
+bash
+Copy code
+docker-compose build
+Inicie o contêiner:
 
-   docker run -p 8000:8000 atividade
+Após a construção da imagem, execute o contêiner utilizando o Docker Compose:
 
-3. Acesse a Aplicação:
+bash
+Copy code
+docker-compose up
+O projeto será iniciado e estará acessível no endereço http://localhost:8000.
 
-   Abra o seu navegador e acesse http://localhost:8000 para visualizar a aplicação.
+Acesse a Aplicação:
+
+Abra o seu navegador e acesse http://localhost:8000 para visualizar a aplicação.
