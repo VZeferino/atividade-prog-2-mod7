@@ -2,21 +2,23 @@ Atividade Programação Ponderada 2
 
 Estrutura de Pastas:
 
-├── static/
-│   ├── style.css
-│   ├── app.js
-│   └── ...
-├── templates/
-│   ├── index.html
-│   ├── notes.html
-├── auth.py
-├── database.py
-├── Dockerfile
-├── docker-compose.yml
-├── main.py
-├── README.md
-├── requirements.txt
-└── test.db
+- static/
+  - style.css
+  - app.js
+  - ...
+
+- templates/
+  - index.html
+  - notes.html
+
+- auth.py
+- database.py
+- Dockerfile
+- docker-compose.yml
+- main.py
+- README.md
+- requirements.txt
+- test.db
 
 Descrição das Pastas:
 
@@ -30,14 +32,14 @@ Como Rodar o Projeto:
 
 1. Abra um terminal na pasta raiz do seu projeto e execute o seguinte comando para construir o contêiner (deve estar com o Docker Desktop aberto):
 
-docker build -t atividade .
+   docker build -t atividade .
 
 2. Rode o Contêiner:
 
-Após o build ser concluído, execute o seguinte comando para rodar o contêiner:
+   Após o build ser concluído, execute o seguinte comando para rodar o contêiner:
 
-docker run -p 8000:8000 atividade
+   docker run -p 8000:8000 atividade
 
 3. Acesse a Aplicação:
 
-Abra o seu navegador e acesse http://localhost:8000 para visualizar a aplicação.
+   Abra o seu navegador e acesse http://localhost:8000 para visualizar a aplicação.
