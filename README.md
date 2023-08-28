@@ -39,6 +39,9 @@ Além disso, a separação das operações de autenticação e geração de toke
 
 ## Como Rodar o Projeto:
 
+[DockerHub](https://hub.docker.com/layers/vzeferino/ponderada2/latest/images/sha256-1e461a287bd8b989c991f6b902d7727ebe3b1d293488b8c225c6138e967cb3ac?context=repo)
+
+
 Para executar o projeto, siga os passos abaixo:
 
 Abra um terminal na pasta raiz do seu projeto.
@@ -55,6 +58,7 @@ Após a construção da imagem, execute o contêiner utilizando o Docker Compose
 bash
 Copy code
 docker-compose up
+
 O projeto será iniciado e estará acessível no endereço http://localhost:8000.
 
 Acesse a Aplicação:
