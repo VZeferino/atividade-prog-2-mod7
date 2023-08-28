@@ -1,5 +1,9 @@
 # Atividade Programação Ponderada 2
 
+## Descrição
+
+Neste projeto, foi desenvolvida uma aplicação web utilizando o framework FastAPI, o Uvicorn para o servidor, e Docker para facilitar o gerenciamento de notas pessoais em que seria possível criar notas, visualiza-las, edita-las e por fim deleta-las. A estrutura de pastas foi organizada de forma clara, com um foco especial na autenticação de usuários. O sistema permite o login com seu usuário e senha para depois levar a uma página onde poderá fazer adição de notas associadas a cada usuário.
+
 ## Arquitetura da Solução
 Este projeto foi desenvolvido seguindo uma arquitetura simples e eficiente, buscando atender aos requisitos da atividade. A arquitetura da solução segue o padrão de desenvolvimento web com a separação de responsabilidades em camadas, incluindo o frontend, o backend e o db. A estrutura de pastas e a separação de arquivos foram planejadas para facilitar a organização e o entendimento do projeto.
 
